@@ -12,19 +12,19 @@
 <body>
     <nav>
         <ul>
-            <li class="home"><a href="">Home</a></li>
-            <li class="about"><a href="">About</a></li>
-            <li class="features"><a href="">Features</a></li>
-            <li class="add"><a href="">Add to Slack</a></li>
+            <li class="home"><a href="#home">Home</a></li>
+            <li class="about"><a href="#about">About</a></li>
+            <li class="features"><a href="#features">Features</a></li>
+            <li class="add"><a href="https://slack.com">Add to Slack</a></li>
         </ul>
     </nav>
-    <header>
+    <header id="home">
         <div class="container left">
           <h1><span class="ticky-bold">Ticky</span>Bot</h1>
           <p>Let your team manage their support tickets 100% inside Slack</p>
 
-          <button class="btn"><img src="img/5e594ad76535670e7f227f79c6b72799.svg" alt="">
-          <a href="https://slack.com/signin">  Add to <strong>Slack</strong></a></button>
+          <button class="btn btn-light"><img src="img/5e594ad76535670e7f227f79c6b72799.svg" alt="">
+          <a href="https://slack.com">  Add to <strong>Slack</strong></a></button>
 
         </div>
         <div class="container right">
@@ -32,7 +32,7 @@
             </div>
         </header>
       <main>
-        <section class="about-card">
+        <section class="about-card" id="about">
             <h3 class=" title title-about">What Is <strong>Ticky</strong>Bot</h3>
             <div class="box">
               <div class="half-left">
@@ -50,13 +50,13 @@
             
 
         </section>
-        <section class="feature-cards">
+        <section class="feature-cards" id="features">
             <h3 class="title title-feature">How It Works</h3> 
           <div class="cards">
             <figure class="one">
                 <img src="img/5e294ff6045f826e1b4f452df8897fb8.svg" alt="" class="fig-img">
                 <figcaption class="description">
-                    You can add TickyBot to your Slack workplace by scrolling down or <a href="">clicking here</a>
+                    You can add TickyBot to your Slack workplace by scrolling down or <a href="#add">clicking here</a>
                 </figcaption>
             </figure>
             <figure class="two">
@@ -70,14 +70,14 @@
            </div>
             
         </section>
-        <section class="addSlack"> 
+        <section class="addSlack" id="add"> 
             <h3 class="title title-add">Start Using <strong>Ticky</strong>Bot Today</h3> 
 
             <p><strong>Ticky</strong>Bot allows Slack teams to manage their support tickets 100% inside Slack, without having to switch between different apps.</p>
 
-            <button class="btn-slack">
+            <button class="btn btn-dark">
               <img src="img/5e594ad76535670e7f227f79c6b72799.svg" alt="">
-              <a href="https://slack.com/signin"><span>Add to <strong>Slack</strong></span></a></button>
+              <a href="https://slack.com"><span>Add to <strong>Slack</strong></span></a></button>
 
             <p>... so you don't need to go back and forth with another app.</p>
         </section>
@@ -87,7 +87,10 @@
         <p>Made with ❤️ by maknetaRo</p>
         <p>Source code is available on my <a href="https://github.com/maknetaRo/tickyBot">GitHub page</a> </p>
         <p>The app is not created by, affiliated with, or supported by Slack Technologies, Inc</p>
+        <button onclick="topButton()" id="my-btn">
+          <img src="img/top.svg" alt="">
+        </button>
     </footer>
-    
+   <script src="index.js"></script>
 </body>
 </html>
