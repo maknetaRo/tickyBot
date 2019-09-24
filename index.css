@@ -189,6 +189,9 @@ figcaption {
     padding: 1rem;
     grid-row: 2 / 3;   
 }
+.red {
+    color: #DC143C;
+}
 
 /* Add Slack Section */
 .addSlack {
@@ -219,7 +222,7 @@ footer a {
 
 /* Buttons */
 
-button {
+.btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -239,42 +242,60 @@ button {
     
     
 }
-.btn-slack {
+.btn-dark {
     background: #40596b;  
 }
-.btn {
+.btn-light {
     background: #FFFFFF;
     margin: 0 50px;    
     
 }
-.btn-slack a  {   
+.btn-dark a  {   
     text-decoration: none;
     color: rgba(255, 255, 255, 0.9);      
 }
 
-button img {
+.btn img {
     width: 40px;
     height: 40px;
     margin: 0 1rem 0 0;
     transition: transform 1s;
 }
-.btn-slack:hover {
+.btn-dark:hover {
     background: rgba(0, 0, 0, 0.7);
     
     transform: scale(0.95);
 }
-.btn:hover {
+.btn-light:hover {
     transform: scale(0.95);
 }
-.btn a {
+.btn-light a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.75); 
 }
-.btn a strong {
+.btn-light a strong {
     color: rgba(0, 0, 0, 0.65);
 }
-.btn-slack:hover img, .btn:hover img{
+.btn-dark:hover img, .btn:hover img{
     transform: scale(1.5) rotate(18deg);   
+}
+#my-btn {
+    display:none;
+    position:fixed;
+    bottom: 1.3rem;
+    right: 1.8rem;
+    z-index:99;
+    border: none;
+    outline: none;
+    background: #FFD05A;
+    color: #40596b;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+#my-btn img {
+    width: 1.6rem;
 }
 
 @media only screen and (max-width: 700px) {
