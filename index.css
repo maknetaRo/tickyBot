@@ -88,7 +88,7 @@ header {
     margin: 1rem;
     min-width: 300px;
     padding: 1.2rem;
-    align-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -172,7 +172,7 @@ header .left p {
 
 .one, .two, .three {   
     display: grid;
-    padding: 1.2rem 0 0 0;
+    padding: 1rem 0 0 0;
     margin: 1rem 1rem 3rem ;
     background: #40596b;
     justify-items: center;
@@ -239,16 +239,14 @@ footer a {
     text-align: center; 
     line-height: 0.5;
     transition: transform 1s;
-    
-    
+    cursor: pointer;
 }
 .btn-dark {
     background: #40596b;  
 }
 .btn-light {
-    background: #FFFFFF;
-    margin: 0 50px;    
-    
+    background: #FFFFFF;   
+    margin: 2rem auto; 
 }
 .btn-dark a  {   
     text-decoration: none;
