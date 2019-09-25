@@ -281,7 +281,7 @@ nav ul {
     column-gap: 1rem;
     grid-template-columns: repeat(2, 1fr);
     }
-    .bot {
+    .fig-img {
         max-width: 400px;
     }
 
