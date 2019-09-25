@@ -175,7 +175,8 @@ header .left p {
     animation-duration: 2s;
 }
 .bot {
-    min-width: 280px;
+    max-width: 300px;
+    margin: 0 auto;
 
     animation-name: moveUpAndDown;
     animation-duration: 4s;
@@ -342,6 +343,10 @@ nav ul {
     grid-area: "three";
     grid-column: 1 / -1;
 }
+.fig-img {    
+    max-width: 220px;
+    margin: 4rem auto;   
+}
 /* Add Slack Section */
 .addSlack {
     padding: 1rem;
@@ -369,6 +374,13 @@ nav ul {
     .three {
         grid-area: "three";
         grid-column: 3 / 4;
+    }
+    .fig-img {    
+        max-width: 220px;
+        margin: 4rem auto;   
+    }
+    .bot {
+        max-width: 400px;
     }
 
 }
