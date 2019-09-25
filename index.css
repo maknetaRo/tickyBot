@@ -67,7 +67,7 @@ p {
     margin: 2rem auto; 
 
     animation-name: moveUpAndDown;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 .btn-dark a  {   
     text-decoration: none;
@@ -172,13 +172,13 @@ header .left p {
     margin: 0 0 2rem;
 
     animation-name: moveUpAndDown;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 .bot {
     min-width: 280px;
 
     animation-name: moveUpAndDown;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 
 
@@ -194,7 +194,7 @@ header .left p {
     padding: 0;
 
     animation-name: moveUpAndDown;
-    animation-duration: 9s;
+    animation-duration: 5s;
 }
 .half-left, .half-right {
     text-align: left;
@@ -394,12 +394,10 @@ nav ul {
         opacity: 1;
         transform: translateY(-25px);
     }
-    10% {
+    20% {
         opacity: 0;
         
-    }
-   
-        
+    }  
     100% {
         opacity: 1;
         transform: translateY(0)
